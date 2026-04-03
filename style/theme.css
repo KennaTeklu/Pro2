@@ -1,0 +1,17 @@
+/* style/theme.css */
+[data-theme="blue"] { --primary: #2563eb; --secondary: #7c3aed; }
+[data-theme="green"] { --primary: #059669; --secondary: #10b981; }
+[data-theme="purple"] { --primary: #7c3aed; --secondary: #8b5cf6; }
+[data-theme="dark"] {
+    --primary: #60a5fa;
+    --secondary: #a78bfa;
+    --gray-50: #0f172a;
+    --gray-100: #1e293b;
+    --gray-200: #334155;
+    --gray-300: #475569;
+    --gray-600: #cbd5e1;
+    --gray-700: #e2e8f0;
+    --gray-800: #f1f5f9;
+    --gray-900: #f8fafc;
+}
+body { transition: background 0.2s, color 0.2s; }
